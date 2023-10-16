@@ -15,6 +15,6 @@ public class Card {
     @Column(unique = true)
     private String number;
 
-    @Column(name = "avaliable_limit",scale = 10, precision = 2)
+    @Column(name = "avaliable_limit",scale = 2, precision = 10)
     private double limit;
 }
